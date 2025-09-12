@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+lib/
+include/
+bin/
+share/
+
+# ArcGIS Pro
+*.aprx.lock
+*.aprx.backup
+*.sde
+*.gdb # Puedes añadir esto si no quieres subir Geodatabases completas
+*.lock
+*.atbx # Cajas de herramientas de ArcGIS (.atbx)
+*.pyt.xml # Archivos XML de metadata para cajas de herramientas Python
+
+# OS generated files
+.DS_Store
+.Trashes
+Thumbs.db
+
+# Output data (opcional, si no quieres subir datos generados)
+# idxs/
+# vec/
+# *.shp
+# *.shx
+# *.dbf
+# *.prj
+# *.cpg
+# *.sbn
+# *.sbx
+# merged_indices_polygons.*
