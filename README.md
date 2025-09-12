@@ -64,7 +64,6 @@ Esta herramienta de geoprocesamiento para ArcGIS Pro permite el cálculo automat
 ### 📊 Salida de la Herramienta
 
 La herramienta creará la siguiente estructura de salida dentro de cada carpeta de imagen procesada, además de un archivo shapefile unificado en la carpeta raíz de entrada:
-
 your_input_folder/
 ├── image_set_1/
 │ └── 20230101_100000_AnalyticMS_SR.tif
@@ -87,14 +86,14 @@ your_input_folder/
 │ └── ...
 ├── image_set_2/
 │ └── ...
-└── merged_idxs.shp <-- Capa de polígonos unificada con todos los resultados.
+└── merged_indices_polygons.shp <-- Capa de polígonos unificada con todos los resultados.
 
 Cada shapefile de polígonos contendrá los siguientes campos:
 
 *   `gridcode`: Valor reclasificado del índice.
 *   `carpeta`: Nombre de la carpeta padre de la imagen.
 *   `fecha`: Fecha de adquisición de la imagen (extraída del nombre del archivo).
-*   `índice`: Nombre del índice calculado (e.g., "ndvi", "gndvi").
+*   `indice`: Nombre del índice calculado (e.g., "ndvi", "gndvi").
 
 ## 🛠️ Desarrollo y Contribuciones
 
