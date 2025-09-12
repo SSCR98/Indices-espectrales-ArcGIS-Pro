@@ -1,0 +1,6 @@
+# Este proyecto utiliza ArcPy, que es parte de la instalación de ArcGIS Pro.
+# No se requieren dependencias adicionales de Python fuera del entorno de ArcGIS Pro.
+
+# Si se usaran otras librerías (ej. numpy, pandas), se listarían aquí:
+# numpy>=1.18.0
+# pandas>=1.0.0
