@@ -95,19 +95,3 @@ Cada shapefile de polígonos contendrá los siguientes campos:
 *   `fecha`: Fecha de adquisición de la imagen (extraída del nombre del archivo).
 *   `indice`: Nombre del índice calculado (e.g., "ndvi", "gndvi").
 
-## 🛠️ Desarrollo y Contribuciones
-
-Este proyecto es de código abierto y agradecemos cualquier contribución. Si tienes ideas para mejorar, encuentras errores o quieres añadir nuevas características, no dudes en:
-
-*   **Abrir un Issue**: Para reportar errores o sugerir nuevas características.
-*   **Enviar un Pull Request**: Para contribuir directamente con código.
-
-### Contacto
-
-Para cualquier consulta, puedes contactar a [Tu Nombre/Usuario de GitHub].
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles. (Podemos cambiar esto a otra licencia si lo deseas, o simplemente borrar la sección si prefieres "sin licencia").
-
----
